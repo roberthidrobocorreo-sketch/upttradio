@@ -1,8 +1,7 @@
 /* ============================================================
    UPTT Radio · reproductor en vivo
-   >>> Pega aquí la URL de tu stream (Icecast, Shoutcast, Zeno, etc.)
    ============================================================ */
-const STREAM_URL = ""; // ej: "https://tu-servidor.com:8000/stream"
+const STREAM_URL = "https://radios.yanapak.org/UPTT";
 
 (function () {
   const audio  = document.getElementById("stream");
